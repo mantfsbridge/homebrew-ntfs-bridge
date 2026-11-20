@@ -1,9 +1,9 @@
 cask "ntfsbridge" do
   version "1.0.0"
-  sha256 "5ab616c6632d925808cb4ce6edf74a6ca481b358c5bfc27eed1c728478bbd87e"
+  sha256 "2aaf5177388e3cee4bc2d2ec412e96f6cb375467281315db2b2f5290f47390f8"
 
-  url "https://github.com/apneastallion/ntfs-bridge/releases/download/v#{version}/NTFSBridge-#{version}.dmg",
-      verified: "github.com/apneastallion/ntfs-bridge/"
+  url "https://github.com/mantfsbridge/ntfs-bridge-releases/releases/download/v#{version}/NTFSBridge-#{version}.dmg",
+      verified: "github.com/mantfsbridge/ntfs-bridge-releases/"
   name "NTFS Bridge"
   desc "Read and write NTFS drives on Apple Silicon Macs"
   homepage "https://ntfsbridge.app/"
