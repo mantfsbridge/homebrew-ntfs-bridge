@@ -1,6 +1,6 @@
 cask "ntfsbridge" do
-  version "1.0.0"
-  sha256 "1ba4eac46be251f1e414aa470df07e8f81863e8fd637da523b65f8b103e004d0"
+  version "1.0.1"
+  sha256 "b5f5e714d13950bfde79ab8037e42496f435935099dbc32127f3e79ce9acaabe"
 
   url "https://github.com/mantfsbridge/ntfs-bridge-releases/releases/download/v#{version}/NTFSBridge-#{version}.dmg",
       verified: "github.com/mantfsbridge/ntfs-bridge-releases/"
