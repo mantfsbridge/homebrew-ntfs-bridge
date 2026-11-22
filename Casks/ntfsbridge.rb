@@ -1,6 +1,6 @@
 cask "ntfsbridge" do
   version "1.0.0"
-  sha256 "f9424302b6d5be3f2b23c852c627649eefe2f19e9e4ea86026fa094fe6d7d1bd"
+  sha256 "1ba4eac46be251f1e414aa470df07e8f81863e8fd637da523b65f8b103e004d0"
 
   url "https://github.com/mantfsbridge/ntfs-bridge-releases/releases/download/v#{version}/NTFSBridge-#{version}.dmg",
       verified: "github.com/mantfsbridge/ntfs-bridge-releases/"
@@ -16,7 +16,7 @@ cask "ntfsbridge" do
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "NTFSBridge.app"
+  app "NTFS Bridge.app"
 
   uninstall launchctl: "com.macntfsbridge.NTFSBridge.helper"
 
